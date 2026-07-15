@@ -1,76 +1,97 @@
+<div align="center">
+
 # 🚀 AI Resume Analyzer
 
-> A modern, premium AI Resume Analyzer frontend built with **React**, **Vite**, **Tailwind CSS**, and **Framer Motion**.
+### ✨ Premium AI Resume Analyzer Frontend built with React, Vite & Tailwind CSS
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react" />
-  <img src="https://img.shields.io/badge/Vite-5-646CFF?style=for-the-badge&logo=vite" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-3-38BDF8?style=for-the-badge&logo=tailwind-css" />
-  <img src="https://img.shields.io/badge/Framer_Motion-Animation-FF4D9D?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" />
+<p>
+A modern SaaS-inspired Resume Analyzer UI with beautiful glassmorphism,
+animated dashboard, ATS score visualization, resume preview,
+skills analysis and responsive design.
 </p>
 
----
+### 🌐 Live Demo
 
-## ✨ Overview
+https://ai-resume-analyzer-one-roan.vercel.app/
 
-AI Resume Analyzer is a **premium frontend web application** designed to simulate an AI-powered resume analysis experience.
+### 💻 GitHub Repository
 
-Users can upload a resume, preview it, view a sample ATS score, identify matched and missing skills, and receive improvement suggestions through a beautiful modern interface.
-
-> ⚠️ **This project is frontend-only and uses local dummy data. No backend or AI API is integrated.**
+https://github.com/soravv-dev/AI-resume-analyzer
 
 ---
 
-# 🌟 Features
+![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)
 
-✅ Premium Glassmorphism UI
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite)
 
-✅ Fully Responsive Design
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38BDF8?style=for-the-badge&logo=tailwindcss)
 
-✅ Animated Hero Section
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-✅ Drag & Drop Resume Upload
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-000000?style=for-the-badge)
 
-✅ Resume Preview
+</div>
 
-✅ ATS Score Dashboard
+---
 
-✅ Circular Progress Indicator
+# 📖 Overview
 
-✅ Skills Analysis
+AI Resume Analyzer is a **frontend-only web application** inspired by modern SaaS products.
 
-✅ Missing Skills Section
+It simulates an AI-powered resume analysis experience where users can upload a resume, preview it, visualize an ATS score, review matched and missing skills, and receive improvement suggestions through an elegant and responsive interface.
 
-✅ Resume Improvement Suggestions
+> ⚠️ This project uses **local dummy data only** and does not include backend services or AI APIs.
 
-✅ FAQ Section
+---
 
-✅ Smooth Framer Motion Animations
+# ✨ Features
 
-✅ Modern Component-Based Architecture
+- 🎨 Premium Glassmorphism UI
+- 🌙 Dark Theme
+- 📱 Fully Responsive Design
+- ⚡ Built with React + Vite
+- 🎬 Smooth Framer Motion Animations
+- 📄 Resume Upload Interface
+- 📂 Drag & Drop Upload Area
+- 👀 Resume Preview
+- 📊 ATS Score Dashboard
+- 🟣 Circular Progress Indicator
+- ✅ Skills Analysis
+- ❌ Missing Skills Section
+- 💡 Resume Suggestions
+- 📚 FAQ Section
+- 🧩 Reusable Components
+- 🚀 Fast Performance
 
 ---
 
 # 🛠️ Tech Stack
 
-- ⚛️ React 19
-- ⚡ Vite
-- 🎨 Tailwind CSS
-- 🎬 Framer Motion
-- 🧭 React Router DOM
-- 🎯 Lucide React Icons
-- 📦 JavaScript (ES6+)
+| Technology | Usage |
+|------------|-------|
+| ⚛️ React 19 | Frontend |
+| ⚡ Vite | Build Tool |
+| 🎨 Tailwind CSS | Styling |
+| 🎬 Framer Motion | Animations |
+| 🧭 React Router DOM | Routing |
+| 💻 JavaScript (ES6+) | Programming |
+| 🎯 Lucide React | Icons |
 
 ---
 
-# 📁 Folder Structure
+# 📂 Project Structure
 
 ```text
 src/
 │
 ├── assets/
 ├── components/
+│   ├── common/
+│   ├── dashboard/
+│   ├── layout/
+│   ├── upload/
+│   └── ui/
+│
 ├── data/
 ├── hooks/
 ├── pages/
@@ -83,44 +104,57 @@ src/
 
 ---
 
-# 📸 Screenshots
+# 📱 Pages
 
-> Add screenshots here after deployment.
-
-- 🏠 Home Page
+- 🏠 Home
 - 📄 Resume Analyzer
 - 📊 ATS Score
-- 📱 Mobile View
+- ℹ️ About
+- 📞 Contact
+- 🚫 404 Page
 
 ---
 
-# 🚀 Getting Started
+# 🎨 UI Highlights
 
-## Clone Repository
+- 💜 Purple Gradient Theme
+- 🧡 Warm Orange Glow
+- ✨ Glassmorphism Cards
+- 🌈 Beautiful Gradients
+- 🚀 Modern SaaS Layout
+- 🎬 Smooth Animations
+- 📱 Responsive Navigation
+- 💎 Premium Dashboard Design
+
+---
+
+# 🚀 Installation
+
+Clone the repository
 
 ```bash
 git clone https://github.com/soravv-dev/AI-resume-analyzer.git
 ```
 
----
+Go to the project
 
-## Install Dependencies
+```bash
+cd AI-resume-analyzer
+```
+
+Install dependencies
 
 ```bash
 npm install
 ```
 
----
-
-## Start Development Server
+Run development server
 
 ```bash
 npm run dev
 ```
 
----
-
-## Build Project
+Create production build
 
 ```bash
 npm run build
@@ -128,7 +162,7 @@ npm run build
 
 ---
 
-# 📱 Responsive
+# 📱 Responsive Design
 
 ✅ Mobile
 
@@ -140,47 +174,60 @@ npm run build
 
 ---
 
-# 🎨 UI Highlights
+# 📸 Screenshots
 
-- 🌌 Dark Premium Theme
-- 💜 Purple Gradient
-- 🧡 Soft Orange Glow
-- ✨ Glassmorphism Cards
-- 🎬 Smooth Animations
-- 🎯 Modern Dashboard
-- 🚀 Premium SaaS Feel
+> Add screenshots here after uploading them.
 
----
-
-# 📌 Future Improvements
-
-- AI API Integration
-- Resume Parsing
-- Authentication
-- Resume History
-- PDF Export
-- Download Report
-- Real ATS Calculation
+- 🏠 Home Page
+- 📄 Resume Analyzer
+- 📊 ATS Dashboard
+- 📱 Mobile View
 
 ---
 
-# 👨‍💻 Author
+# 🔮 Future Improvements
 
-**Sorav**
+- 🤖 AI Resume Analysis
+- 📄 PDF Resume Parsing
+- 📊 Real ATS Score
+- 🔐 Authentication
+- ☁️ Cloud Storage
+- 📈 Resume History
+- 📥 Export Report
+- 🌍 Multi-language Support
+
+---
+
+# 👨‍💻 Developer
+
+## Sorav
 
 Frontend Developer
 
-GitHub:
+GitHub
+
 https://github.com/soravv-dev
+
+---
+
+# 🌐 Live Demo
+
+https://ai-resume-analyzer-one-roan.vercel.app/
 
 ---
 
 # ⭐ Support
 
-If you like this project, don't forget to **⭐ Star this repository**.
+If you found this project helpful, please consider giving it a ⭐ on GitHub.
 
-It really helps and motivates me to build more awesome projects.
+It motivates me to build more amazing open-source projects.
 
 ---
 
-## 💜 Thank You for Visiting!
+<div align="center">
+
+## 💜 Thank You for Visiting
+
+### Happy Coding 🚀
+
+</div>
